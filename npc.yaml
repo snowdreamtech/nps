@@ -1,0 +1,25 @@
+image: snowdreamtech/npc:0.23.1
+manifests:
+  - image: snowdreamtechamd64/npc:0.23.1
+    platform:
+      architecture: amd64
+      os: linux
+  - image: snowdreamtechi386/npc:0.23.1
+    platform:
+      architecture: 386
+      os: linux
+  - image: snowdreamtecharm32v6/npc:0.23.1
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
+  - image: snowdreamtecharm32v7/npc:0.23.1
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+  - image: snowdreamtecharm64v8/npc:0.23.1
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
