@@ -1,24 +1,28 @@
 # nps
+
 [![nps](http://dockeri.co/image/snowdreamtech/nps)](https://hub.docker.com/r/snowdreamtech/nps)
 [![nps](http://dockeri.co/image/snowdreamtech/npc)](https://hub.docker.com/r/snowdreamtech/npc)
-
 
 Docker Image packaging for nps.
 
 (amd64, arm32v6, arm32v7, arm64v8, i386)
 
-## Usage 
+## Usage
+
 start nps
-```
+
+```bash
 docker run --restart=always --network host -d -v /etc/nps:/etc/nps --name nps snowdreamtech/nps
 ```
 
 start npc
-```
+
+```bash
 docker run --restart=always --network host -d -v /etc/npc/npc.conf:/etc/npc/npc.conf --name npc snowdreamtech/npc
 ```
 
 ## Quick reference
+
 * Where to file issues:
 
 [https://github.com/snowdreamtech/nps/issues](https://github.com/snowdreamtech/nps/issues)
@@ -44,4 +48,5 @@ nps:
 [npc](https://cloud.docker.com/u/snowdreamtech/repository/docker/snowdreamtech/npc/tags)
 
 ## License
+
 Apache 2.0
