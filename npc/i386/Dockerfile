@@ -12,9 +12,10 @@ RUN apk add --no-cache openrc \
     && cd /root \
     &&  wget --no-check-certificate -c https://github.com/cnlh/nps/releases/download/v${NPC_VERSION}/linux_386_client.tar.gz \
     &&  tar zxvf linux_386_client.tar.gz  \
+    &&  cd nps/ \
     &&  mv npc /usr/bin/ \
     &&  mkdir -p /etc/npc \
-    &&  mv npc.conf /etc/npc \
+    &&  mv conf/npc.conf /etc/npc \
     &&  cd /root \
     &&  rm linux_386_client.tar.gz
 
