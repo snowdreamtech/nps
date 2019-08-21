@@ -2,7 +2,7 @@ FROM arm32v7/alpine:3.10
 
 LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
-ENV NPS_VERSION 0.23.1
+ENV NPS_VERSION 0.23.2
 
 VOLUME [ "/sys/fs/cgroup" ]
 
