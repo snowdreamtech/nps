@@ -8,18 +8,18 @@ manifests:
     platform:
       architecture: 386
       os: linux
-  - image: snowdreamtecharm32v6/nps:latest
-    platform:
-      architecture: arm
-      os: linux
-      variant: v6
-  - image: snowdreamtecharm32v7/nps:latest
-    platform:
-      architecture: arm
-      os: linux
-      variant: v7
-  - image: snowdreamtecharm64v8/nps:latest
-    platform:
-      architecture: arm64
-      os: linux
-      variant: v8
+  # - image: snowdreamtecharm32v6/nps:latest
+  #   platform:
+  #     architecture: arm
+  #     os: linux
+  #     variant: v6
+  # - image: snowdreamtecharm32v7/nps:latest
+  #   platform:
+  #     architecture: arm
+  #     os: linux
+  #     variant: v7
+  # - image: snowdreamtecharm64v8/nps:latest
+  #   platform:
+  #     architecture: arm64
+  #     os: linux
+  #     variant: v8
