@@ -4,12 +4,9 @@ LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
 ENV NPC_VERSION 0.24.0
 
-VOLUME [ "/sys/fs/cgroup" ]
-
 COPY qemu-aarch64-static /usr/bin
 
-RUN apk add --no-cache openrc \
-    && cd /root \
+RUN cd /root \
     &&  wget --no-check-certificate -c https://github.com/cnlh/nps/releases/download/v${NPC_VERSION}/linux_arm64_client.tar.gz \
     &&  tar zxvf linux_arm64_client.tar.gz  \
     &&  cd nps/ \

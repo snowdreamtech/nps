@@ -4,12 +4,9 @@ LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
 ENV NPS_VERSION 0.24.0
 
-VOLUME [ "/sys/fs/cgroup" ]
-
 COPY qemu-i386-static /usr/bin
 
-RUN apk add --no-cache openrc \
-    && cd /root \
+RUN cd /root \
     &&  wget --no-check-certificate -c https://github.com/cnlh/nps/releases/download/v${NPS_VERSION}/linux_386_server.tar.gz \
     &&  tar zxvf linux_386_server.tar.gz  \
     &&  cd nps/ \
