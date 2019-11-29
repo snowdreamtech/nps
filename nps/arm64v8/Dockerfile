@@ -2,7 +2,7 @@ FROM arm64v8/alpine:3.10
 
 LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
-ENV NPS_VERSION 0.24.0
+ENV NPS_VERSION 0.24.1
 
 COPY qemu-aarch64-static /usr/bin
 

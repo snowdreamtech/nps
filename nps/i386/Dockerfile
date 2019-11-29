@@ -2,7 +2,7 @@ FROM i386/alpine:3.10
 
 LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
-ENV NPS_VERSION 0.24.0
+ENV NPS_VERSION 0.24.1
 
 COPY qemu-i386-static /usr/bin
 

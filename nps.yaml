@@ -1,24 +1,24 @@
-image: snowdreamtech/nps:0.24.0
+image: snowdreamtech/nps:0.24.1
 manifests:
-  - image: snowdreamtechamd64/nps:0.24.0
+  - image: snowdreamtechamd64/nps:0.24.1
     platform:
       architecture: amd64
       os: linux
-  - image: snowdreamtechi386/nps:0.24.0
+  - image: snowdreamtechi386/nps:0.24.1
     platform:
       architecture: 386
       os: linux
-  # - image: snowdreamtecharm32v6/nps:0.24.0
+  # - image: snowdreamtecharm32v6/nps:0.24.1
   #   platform:
   #     architecture: arm
   #     os: linux
   #     variant: v6
-  # - image: snowdreamtecharm32v7/nps:0.24.0
+  # - image: snowdreamtecharm32v7/nps:0.24.1
   #   platform:
   #     architecture: arm
   #     os: linux
   #     variant: v7
-  # - image: snowdreamtecharm64v8/nps:0.24.0
+  # - image: snowdreamtecharm64v8/nps:0.24.1
   #   platform:
   #     architecture: arm64
   #     os: linux

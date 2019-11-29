@@ -2,7 +2,7 @@ FROM amd64/alpine:3.10
 
 LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
-ENV NPC_VERSION 0.24.0
+ENV NPC_VERSION 0.24.1
 
 RUN cd /root \
     &&  wget --no-check-certificate -c https://github.com/cnlh/nps/releases/download/v${NPC_VERSION}/linux_amd64_client.tar.gz \
